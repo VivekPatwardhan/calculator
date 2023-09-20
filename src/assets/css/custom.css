@@ -1,0 +1,111 @@
+/* :root {
+    --body-grey:#858585;
+    --display-green:#99bdac;
+    --display-panel-grey:#cfcfcf;
+    --buttins-panel-browm:#e3d096;
+} */
+
+.calDisplayPanel {
+    background-color: #cfcfcf;
+    /* height: 106px; */
+}
+.calDisplay {
+    background-color: #99bdac;
+    border: solid #5a7066 2px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* font-size: xx-large; */
+}
+.upper-display {
+    color: #606060;
+    font-size: large;
+    font-style: italic;
+    height: 30px;
+}
+.lower-display {
+    /* font-size: xx-large; */
+    font-size: 40px;
+}
+.numbers-card {
+    /* background-color: #e3d6b0; */
+    background-color: #cfcfcf;
+    width: 320px;
+}
+.calculator-card {
+    background-color: #4c4c4c;
+    box-shadow: -9px 15px 10px 2px #727272;
+    width: 500px;
+    --bs-card-border-width: 4px;
+    --bs-card-border-color: #343434;
+    /* border: 20px !important; */
+    /* flex-direction: row; */
+}
+.operators-card {
+    /* background-color: #e3d6b0; */
+    background-color: #cfcfcf;
+    width: 160px;
+    height: inherit;
+}
+.align-middle {
+    text-align: -webkit-center;
+}
+.btnPanel {
+    display: flex;
+}
+.btnNumber, .btnResultOperator {
+    background: linear-gradient(to top right, #000000, #545454);
+    box-shadow: -2px 3px 4px 1px #727272;
+    height: 76px;
+    width: -webkit-fill-available;
+    display: flex;
+    font-size: -webkit-xxx-large;
+    /* -webkit-text-stroke-width: thick; */
+    justify-content: center;
+    align-items: center;
+}
+.btnOperators {
+    background: linear-gradient(to top right, #000000, #545454);
+    box-shadow: -2px 3px 4px 1px #727272;
+    height: 53px;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btnAddition {
+    /* background-color: #d58e24; */
+    background: linear-gradient(to top right, #bd7c1b, #ffd79b);
+    box-shadow: -2px 3px 4px 1px #727272;
+    height: 145px;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    display: flex;
+    font-size: -webkit-xxx-large;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btnResult {
+    /* background-color: #40a139; */
+    background: linear-gradient(to top right, #40a139, #74db6c);
+    box-shadow: -2px 3px 4px 1px #727272;
+    height: 145px;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    display: flex;
+    font-size: -webkit-xxx-large;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+/* .btnResultOperator{
+    height: 120px;
+    width: -webkit-fill-available;
+} */
